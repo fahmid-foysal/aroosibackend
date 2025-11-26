@@ -1,0 +1,2743 @@
+ReferenceError: token is not defined
+    at loginUser (/home/aroobmro/api/api/admin/admin.controller.js:41:24)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:117:3)
+    at handle (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:295:15
+    at processParams (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:582:12)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:291:5)
+    at Function.handle (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:186:3)
+DB connection failed: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: NO)
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Protocol._enqueue (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.<anonymous> (/home/aroobmro/api/config/database.js:12:6)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: NO)",
+  sqlState: '28000',
+  fatal: true
+}
+DB connection failed: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: NO)
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Protocol._enqueue (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.<anonymous> (/home/aroobmro/api/config/database.js:12:6)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: NO)",
+  sqlState: '28000',
+  fatal: true
+}
+DB connection failed: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: NO)
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Protocol._enqueue (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.<anonymous> (/home/aroobmro/api/config/database.js:12:6)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: NO)",
+  sqlState: '28000',
+  fatal: true
+}
+DB connection failed: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'aroobmro_fahmid'@'localhost' to database 'aroobmro_db'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Protocol._enqueue (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.<anonymous> (/home/aroobmro/api/config/database.js:12:6)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19) {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sqlMessage: "Access denied for user 'aroobmro_fahmid'@'localhost' to database 'aroobmro_db'",
+  sqlState: '42000',
+  fatal: true
+}
+DB connection failed: Error: ER_DBACCESS_DENIED_ERROR: Access denied for user 'aroobmro_fahmid'@'localhost' to database 'aroobmro_db'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Protocol._enqueue (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.<anonymous> (/home/aroobmro/api/config/database.js:12:6)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19) {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sqlMessage: "Access denied for user 'aroobmro_fahmid'@'localhost' to database 'aroobmro_db'",
+  sqlState: '42000',
+  fatal: true
+}
+/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: transporter.sendMail is not a function
+    at sendMail (/home/aroobmro/api/api/users/user.service.js:280:21)
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:273:15)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.OkPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:74:10)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+
+Node.js v18.20.8
+/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: transporter.sendMail is not a function
+    at sendMail (/home/aroobmro/api/api/users/user.service.js:280:21)
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:264:15)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.OkPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:74:10)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+
+Node.js v18.20.8
+/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+ReferenceError: totalGuests is not defined
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:322:52)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.OkPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:74:10)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+
+Node.js v18.20.8
+Error: ENOENT: no such file or directory, open '/home/aroobmro/api/api/users/grouped_countries_cities.json'
+    at Object.openSync (node:fs:596:3)
+    at Object.readFileSync (node:fs:464:35)
+    at getAllCountries (/home/aroobmro/api/api/users/user.controller.js:175:26)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:117:3)
+    at handle (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:295:15
+    at processParams (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/index.js:582:12) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/aroobmro/api/api/users/grouped_countries_cities.json'
+}
+TypeError: data[country].map is not a function
+    at getCities (/home/aroobmro/api/api/users/user.controller.js:228:34)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at middleware (/home/aroobmro/nodevenv/api/18/lib/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: Cannot read properties of undefined (reading ' Dhaka')
+    at createUser (/home/aroobmro/api/api/users/user.controller.js:33:40)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at middleware (/home/aroobmro/nodevenv/api/18/lib/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+ReferenceError: lat is not defined
+    at createUser (/home/aroobmro/api/api/users/user.controller.js:33:52)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at middleware (/home/aroobmro/nodevenv/api/18/lib/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: Cannot read properties of undefined (reading 'lat')
+    at createUser (/home/aroobmro/api/api/users/user.controller.js:33:52)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at middleware (/home/aroobmro/nodevenv/api/18/lib/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: Cannot read properties of undefined (reading 'lat')
+    at createUser (/home/aroobmro/api/api/users/user.controller.js:33:52)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at middleware (/home/aroobmro/nodevenv/api/18/lib/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+ReferenceError: want_child is not defined
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:27:79)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+
+Node.js v18.20.8
+/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+ReferenceError: want_child is not defined
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:27:79)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+
+Node.js v18.20.8
+/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: data and hash arguments required
+    at compareSync (/home/aroobmro/nodevenv/api/18/lib/node_modules/bcrypt/bcrypt.js:162:15)
+    at /home/aroobmro/api/api/users/user.controller.js:97:33
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:61:16)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+
+Node.js v18.20.8
+/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error: data and hash arguments required
+    at compareSync (/home/aroobmro/nodevenv/api/18/lib/node_modules/bcrypt/bcrypt.js:162:15)
+    at /home/aroobmro/api/api/users/user.controller.js:97:33
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:61:16)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+
+Node.js v18.20.8
+ReferenceError: data is not defined
+    at getProfile (/home/aroobmro/api/api/users/user.service.js:295:8)
+    at getUserProfile (/home/aroobmro/api/api/users/user.controller.js:119:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+ReferenceError: otp is not defined
+    at addPost (/home/aroobmro/api/api/posts/posts.controller.js:13:24)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+ReferenceError: fs is not defined
+    at createBusiness (/home/aroobmro/api/api/business/business.controller.js:26:21)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+TypeError: Cannot read properties of undefined (reading 'lat')
+    at createBusiness (/home/aroobmro/api/api/business/business.controller.js:32:60)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+Error: ER_NON_UNIQ_ERROR: Column 'latitude' in SELECT is ambiguous
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:72:10)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'latitude' in SELECT is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: '\n' +
+    '      SELECT b.*, u.name, u.pro_path,\n' +
+    '        (6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8103)) * COS(RADIANS(latitude)) *\n' +
+    '          COS(RADIANS(longitude) - RADIANS(90.4125)) +\n' +
+    '          SIN(RADIANS(23.8103)) * SIN(RADIANS(latitude))\n' +
+    '        )) AS distance\n' +
+    '      FROM businesses b\n' +
+    '      INNER JOIN users u ON u.id = b.user_id\n' +
+    '      WHERE 1=1\n' +
+    '     HAVING distance <= 50 AND (\n' +
+    "        b.shop_name LIKE '%soft%' OR\n" +
+    "        b.one_liner LIKE '%soft%' OR\n" +
+    "        b.about_us LIKE '%soft%' OR\n" +
+    "        b.services LIKE '%soft%' OR\n" +
+    "        b.category LIKE '%soft%' OR\n" +
+    "        b.website LIKE '%soft%'\n" +
+    '      ) ORDER BY distance ASC LIMIT 5 OFFSET 0'
+}
+Error: ER_NON_UNIQ_ERROR: Column 'latitude' in SELECT is ambiguous
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:72:10)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'latitude' in SELECT is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: '\n' +
+    '      SELECT b.*, u.name, u.pro_path,\n' +
+    '        (6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8103)) * COS(RADIANS(latitude)) *\n' +
+    '          COS(RADIANS(longitude) - RADIANS(90.4125)) +\n' +
+    '          SIN(RADIANS(23.8103)) * SIN(RADIANS(latitude))\n' +
+    '        )) AS distance\n' +
+    '      FROM businesses b\n' +
+    '      INNER JOIN users u ON u.id = b.user_id\n' +
+    '      WHERE 1=1\n' +
+    '     HAVING distance <= 50 AND (\n' +
+    "        b.shop_name LIKE '%soft%' OR\n" +
+    "        b.one_liner LIKE '%soft%' OR\n" +
+    "        b.about_us LIKE '%soft%' OR\n" +
+    "        b.services LIKE '%soft%' OR\n" +
+    "        b.category LIKE '%soft%' OR\n" +
+    "        b.website LIKE '%soft%'\n" +
+    '      ) ORDER BY distance ASC LIMIT 5 OFFSET 0'
+}
+/home/aroobmro/api/api/business/business.router.js:60
+router.get(
+       ^
+
+ReferenceError: param is not defined
+    at Object.<anonymous> (/home/aroobmro/api/api/business/business.router.js:60:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/aroobmro/api/app.js:19:24)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+Node.js v18.20.8
+/home/aroobmro/api/api/business/business.router.js:60
+router.get(
+       ^
+
+ReferenceError: param is not defined
+    at Object.<anonymous> (/home/aroobmro/api/api/business/business.router.js:60:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/aroobmro/api/app.js:19:24)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+Node.js v18.20.8
+TypeError: Cannot set properties of undefined (setting 'user_id')
+    at addReact (/home/aroobmro/api/api/posts/posts.controller.js:91:18)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+TypeError: Cannot read properties of undefined (reading 'lat')
+    at createUser (/home/aroobmro/api/api/users/user.controller.js:33:52)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at middleware (/home/aroobmro/nodevenv/api/18/lib/node_modules/express-validator/lib/middlewares/check.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at friendReq (/home/aroobmro/api/api/users/user.service.js:412:10)
+    at friendRequest (/home/aroobmro/api/api/users/user.controller.js:328:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_NO_REFERENCED_ROW_2',
+  errno: 1452,
+  sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)',
+  sqlState: '23000',
+  index: 0,
+  sql: 'INSERT INTO friend_requests (sender_id, receiver_id) VALUES(3, 1)'
+}
+Error: ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at friendReq (/home/aroobmro/api/api/users/user.service.js:412:10)
+    at friendRequest (/home/aroobmro/api/api/users/user.controller.js:328:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_NO_REFERENCED_ROW_2',
+  errno: 1452,
+  sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)',
+  sqlState: '23000',
+  index: 0,
+  sql: 'INSERT INTO friend_requests (sender_id, receiver_id) VALUES(3, 1)'
+}
+Error: ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at friendReq (/home/aroobmro/api/api/users/user.service.js:412:10)
+    at friendRequest (/home/aroobmro/api/api/users/user.controller.js:328:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_NO_REFERENCED_ROW_2',
+  errno: 1452,
+  sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)',
+  sqlState: '23000',
+  index: 0,
+  sql: 'INSERT INTO friend_requests (sender_id, receiver_id) VALUES(3, 1)'
+}
+Error: ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at friendReq (/home/aroobmro/api/api/users/user.service.js:412:10)
+    at friendRequest (/home/aroobmro/api/api/users/user.controller.js:328:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_NO_REFERENCED_ROW_2',
+  errno: 1452,
+  sqlMessage: 'Cannot add or update a child row: a foreign key constraint fails (`aroobmro_db`.`friend_requests`, CONSTRAINT `friend_requests_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)',
+  sqlState: '23000',
+  index: 0,
+  sql: 'INSERT INTO friend_requests (sender_id, receiver_id) VALUES(3, 1)'
+}
+Error: ER_BAD_FIELD_ERROR: Unknown column 'fr.sender' in 'WHERE'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at sentRequests (/home/aroobmro/api/api/users/user.service.js:459:10)
+    at sentRequest (/home/aroobmro/api/api/users/user.controller.js:402:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'fr.sender' in 'WHERE'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'SELECT fr.id AS request_id, u.name, u.pro_path \n' +
+    '       FROM friend_requests fr \n' +
+    '       INNER JOIN users u ON u.id = fr.receiver_id\n' +
+    "       WHERE fr.sender = 2 AND fr.status = 'pending'"
+}
+Mailer error: Error: No recipients defined
+    at SMTPConnection._formatError (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._setEnvelope (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1047:34)
+    at SMTPConnection.send (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:631:14)
+    at sendMessage (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-transport/index.js:228:28)
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-transport/index.js:286:25
+    at SMTPConnection._actionAUTHComplete (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1602:9)
+    at SMTPConnection.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:556:26)
+    at SMTPConnection._processResponse (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:993:20)
+    at SMTPConnection._onData (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:774:14)
+    at SMTPConnection._onSocketData (/home/aroobmro/nodevenv/api/18/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44) {
+  code: 'EENVELOPE',
+  command: 'API'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(0)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(0)) +\n' +
+    '          SIN(RADIANS(0)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদেশ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদেশ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদে%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদে%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদে%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলাদ%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলাদ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংলা%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংলা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংল%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাংল%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাংল%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাং%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বাং%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বাং%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.services LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.category LIKE '%ঢাকা, বা%' OR\n" +
+    "      b.website LIKE '%ঢাকা, বা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.services LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.category LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.website LIKE '%ঢাকা, ব%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.services LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.category LIKE '%ঢাকা, ব%' OR\n" +
+    "      b.website LIKE '%ঢাকা, ব%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা,%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা,%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা,%' OR\n" +
+    "      b.services LIKE '%ঢাকা,%' OR\n" +
+    "      b.category LIKE '%ঢাকা,%' OR\n" +
+    "      b.website LIKE '%ঢাকা,%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা,%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা,%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা,%' OR\n" +
+    "      b.services LIKE '%ঢাকা,%' OR\n" +
+    "      b.category LIKE '%ঢাকা,%' OR\n" +
+    "      b.website LIKE '%ঢাকা,%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা,%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা,%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা,%' OR\n" +
+    "      b.services LIKE '%ঢাকা,%' OR\n" +
+    "      b.category LIKE '%ঢাকা,%' OR\n" +
+    "      b.website LIKE '%ঢাকা,%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা,%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা,%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা,%' OR\n" +
+    "      b.services LIKE '%ঢাকা,%' OR\n" +
+    "      b.category LIKE '%ঢাকা,%' OR\n" +
+    "      b.website LIKE '%ঢাকা,%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা%' OR\n" +
+    "      b.services LIKE '%ঢাকা%' OR\n" +
+    "      b.category LIKE '%ঢাকা%' OR\n" +
+    "      b.website LIKE '%ঢাকা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাকা%' OR\n" +
+    "      b.one_liner LIKE '%ঢাকা%' OR\n" +
+    "      b.about_us LIKE '%ঢাকা%' OR\n" +
+    "      b.services LIKE '%ঢাকা%' OR\n" +
+    "      b.category LIKE '%ঢাকা%' OR\n" +
+    "      b.website LIKE '%ঢাকা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাক%' OR\n" +
+    "      b.one_liner LIKE '%ঢাক%' OR\n" +
+    "      b.about_us LIKE '%ঢাক%' OR\n" +
+    "      b.services LIKE '%ঢাক%' OR\n" +
+    "      b.category LIKE '%ঢাক%' OR\n" +
+    "      b.website LIKE '%ঢাক%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢাক%' OR\n" +
+    "      b.one_liner LIKE '%ঢাক%' OR\n" +
+    "      b.about_us LIKE '%ঢাক%' OR\n" +
+    "      b.services LIKE '%ঢাক%' OR\n" +
+    "      b.category LIKE '%ঢাক%' OR\n" +
+    "      b.website LIKE '%ঢাক%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢা%' OR\n" +
+    "      b.one_liner LIKE '%ঢা%' OR\n" +
+    "      b.about_us LIKE '%ঢা%' OR\n" +
+    "      b.services LIKE '%ঢা%' OR\n" +
+    "      b.category LIKE '%ঢা%' OR\n" +
+    "      b.website LIKE '%ঢা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢা%' OR\n" +
+    "      b.one_liner LIKE '%ঢা%' OR\n" +
+    "      b.about_us LIKE '%ঢা%' OR\n" +
+    "      b.services LIKE '%ঢা%' OR\n" +
+    "      b.category LIKE '%ঢা%' OR\n" +
+    "      b.website LIKE '%ঢা%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Database query failed: Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢ%' OR\n" +
+    "      b.one_liner LIKE '%ঢ%' OR\n" +
+    "      b.about_us LIKE '%ঢ%' OR\n" +
+    "      b.services LIKE '%ঢ%' OR\n" +
+    "      b.category LIKE '%ঢ%' OR\n" +
+    "      b.website LIKE '%ঢ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at getBusinesses (/home/aroobmro/api/api/business/business.service.js:80:8)
+    at getBusinesses (/home/aroobmro/api/api/business/business.controller.js:66:5)
+    at Layer.handleRequest (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/aroobmro/nodevenv/api/18/lib/node_modules/router/lib/route.js:157:13)
+    at /home/aroobmro/api/middleware/auth.js:40:21
+    at /home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/home/aroobmro/nodevenv/api/18/lib/node_modules/jsonwebtoken/verify.js:101:10)
+    at checkUser (/home/aroobmro/api/middleware/auth.js:32:17) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb3_general_ci,COERCIBLE) for operation 'like'",
+  sqlState: 'HY000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT \n' +
+    '      b.*, \n' +
+    '      u.name AS owner_name, \n' +
+    '      u.pro_path AS owner_profile,\n' +
+    '      (\n' +
+    '        6371 * ACOS(\n' +
+    '          COS(RADIANS(23.8040917)) * COS(RADIANS(b.latitude)) *\n' +
+    '          COS(RADIANS(b.longitude) - RADIANS(90.4152367)) +\n' +
+    '          SIN(RADIANS(23.8040917)) * SIN(RADIANS(b.latitude))\n' +
+    '        )\n' +
+    '      ) AS distance\n' +
+    '    FROM businesses b\n' +
+    '    INNER JOIN users u ON u.id = b.user_id\n' +
+    '    WHERE 1=1\n' +
+    '   AND (\n' +
+    "      b.shop_name LIKE '%ঢ%' OR\n" +
+    "      b.one_liner LIKE '%ঢ%' OR\n" +
+    "      b.about_us LIKE '%ঢ%' OR\n" +
+    "      b.services LIKE '%ঢ%' OR\n" +
+    "      b.category LIKE '%ঢ%' OR\n" +
+    "      b.website LIKE '%ঢ%'\n" +
+    '    ) HAVING distance <= 50 ORDER BY distance ASC LIMIT 10 OFFSET 0'
+}
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'Bangladesh' AND city = 'Dhaka' AND religion = 'Islam' AND religion_section ...' at line 3
+    at Sequence._packetToError (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    --------------------
+    at Pool.query (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Pool.js:199:23)
+    at Query.<anonymous> (/home/aroobmro/api/api/users/user.service.js:386:10)
+    at Query.<anonymous> (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/aroobmro/nodevenv/api/18/lib/node_modules/mysql/lib/protocol/Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'Bangladesh' AND city = 'Dhaka' AND religion = 'Islam' AND religion_section ...' at line 3",
+  sqlState: '42000',
+  index: 0,
+  sql: '\n' +
+    '    SELECT SQL_CALC_FOUND_ROWS id, name, country, city, pro_path\n' +
+    '    FROM users\n' +
+    "    WHERE id != 5 AND gender = 'Male' AND country = 'Afganishtan', 'Bangladesh' AND city = 'Dhaka' AND religion = 'Islam' AND religion_section = 'Sunni' AND marital_status = 'Single' AND profession = 'Engineer' AND education = 'Bachelor' AND ethnicity = 'Asian' AND body_type = 'Slim' AND hair_color = 'Black' AND eye_color = 'Brown' AND skin_color = 'Fair'\n" +
+    '      ORDER BY \n' +
+    "        (religion = 'Islam') DESC,\n" +
+    "        (religion_section = '') DESC,\n" +
+    "        (profession = '') DESC,\n" +
+    "        (education = '') DESC\n" +
+    '      LIMIT 10 OFFSET 0'
+}
